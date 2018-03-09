@@ -15,7 +15,7 @@
 
 * 💻 Test uploading from clients
 * 📈 File size limit
-* 🔧 Configurations Tuneups
+* 🔧 Configuration Tuneups
 * 🤔 Looking for ideas
 
 ## Requirements
