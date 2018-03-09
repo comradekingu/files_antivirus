@@ -15,7 +15,6 @@
 
 ## What is planned
 
-* 💻 Test uploading from clients
 * 📈 File size limit
 * 🔧 Configuration Tuneups
 * 🤔 Looking for ideas
