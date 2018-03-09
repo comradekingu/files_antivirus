@@ -3,7 +3,9 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/nextcloud/files_antivirus/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/nextcloud/files_antivirus/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/nextcloud/files_antivirus/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/nextcloud/files_antivirus/?branch=master)
 
-**`files_antivirus` is an antivirus app for [Nextcloud](https://nextcloud.com/) based on [ClamAV](http://www.clamav.net).**
+`files_antivirus` **is an antivirus app for [Nextcloud](https://nextcloud.com/) based on [ClamAV](http://www.clamav.net).**
+
+![](https://raw.githubusercontent.com/nextcloud/files_antivirus/readme-info-xml-polishing/screenshots/1.png)
 
 ## Features
 
