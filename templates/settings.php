@@ -9,7 +9,7 @@ script('files_antivirus', 'settings');
 			<p class="av_mode"><label for="av_mode"><?php p($l->t('Mode'));?></label>
 				<select id="av_mode" name="avMode"><?php print_unescaped(html_select_options(array('executable' => $l->t('Executable'), 'daemon' => $l->t('Daemon'), 'socket' => $l->t('Daemon (Socket)')), $_['avMode'])) ?></select>
 			</p>
-		    <p class="av_socket"><label for="av_socket"><?php p($l->t('Socket'));?></label><input type="text" id="av_socket" name="avSocket" value="<?php p($_['avSocket']); ?>" title="<?php p($l->t('Clamav Socket.')).' '.$l->t('Not required in Executable Mode.'); ?>"></p>
+		    <p class="av_socket"><label for="av_socket"><?php p($l->t('Socket'));?></label><input type="text" id="av_socket" name="avSocket" value="<?php p($_['avSocket']); ?>" title="<?php p($l->t('ClamAV Socket.')).' '.$l->t('Not required in Executable Mode.'); ?>"></p>
 			<p class="av_host"><label for="av_host"><?php p($l->t('Host'));?></label><input type="text" id="av_host" name="avHost" value="<?php p($_['avHost']); ?>" title="<?php p($l->t('Address of Antivirus Host.')). ' ' .$l->t('Not required in Executable Mode.');?>"></p>
 			<p class="av_port"><label for="av_port"><?php p($l->t('Port'));?></label><input type="text" id="av_port" name="avPort" value="<?php p($_['avPort']); ?>" title="<?php p($l->t('Port number of Antivirus Host.')). ' ' .$l->t('Not required in Executable Mode.');?>"></p>
 			<p class="av_stream_max_length">
